@@ -7,13 +7,13 @@
 <!-- LEADERBOARD_START -->
 | Rank | Player | Score | Date |
 |------|--------|-------|------|
-| - | *No scores yet* | - | - |
+| 🥇 1 | test | 150 | 2026-02-27 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 0
-🕐 **Last updated:** *never*
+📊 **Total games played:** 1
+🕐 **Last updated:** 2026-02-27 22:16:41 UTC
 
 ---
 

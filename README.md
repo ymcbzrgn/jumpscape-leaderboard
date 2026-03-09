@@ -42,14 +42,15 @@
 | 33 | tunde-NG | 294 | 2026-03-05 |
 | 34 | ananya.in | 231 | 2026-03-01 |
 | 35 | test | 150 | 2026-02-27 |
-| 36 | mercia | 67 | 2026-03-08 |
-| 37 | virg | 22 | 2026-03-09 |
+| 36 | virg | 89 | 2026-03-09 |
+| 37 | mercia | 67 | 2026-03-08 |
+| 38 | virg | 22 | 2026-03-09 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 37
-🕐 **Last updated:** 2026-03-09 16:33:27 UTC
+📊 **Total games played:** 38
+🕐 **Last updated:** 2026-03-09 16:33:45 UTC
 
 ---
 

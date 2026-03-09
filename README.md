@@ -43,12 +43,13 @@
 | 34 | ananya.in | 231 | 2026-03-01 |
 | 35 | test | 150 | 2026-02-27 |
 | 36 | mercia | 67 | 2026-03-08 |
+| 37 | virg | 22 | 2026-03-09 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 36
-🕐 **Last updated:** 2026-03-08 10:04:16 UTC
+📊 **Total games played:** 37
+🕐 **Last updated:** 2026-03-09 16:33:27 UTC
 
 ---
 

@@ -47,12 +47,13 @@
 | 38 | virg | 89 | 2026-03-09 |
 | 39 | mercia | 67 | 2026-03-08 |
 | 40 | virg | 22 | 2026-03-09 |
+| 41 | sude | 14 | 2026-03-12 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 40
-🕐 **Last updated:** 2026-03-09 17:04:57 UTC
+📊 **Total games played:** 41
+🕐 **Last updated:** 2026-03-12 11:02:10 UTC
 
 ---
 

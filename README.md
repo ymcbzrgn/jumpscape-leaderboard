@@ -50,14 +50,15 @@
 | 41 | virg | 89 | 2026-03-09 |
 | 42 | mercia | 67 | 2026-03-08 |
 | 43 | zeyn | 55 | 2026-03-17 |
-| 44 | virg | 22 | 2026-03-09 |
-| 45 | sude | 14 | 2026-03-12 |
+| 44 | b qwsbkn	qn nis	x | 43 | 2026-03-20 |
+| 45 | virg | 22 | 2026-03-09 |
+| 46 | sude | 14 | 2026-03-12 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 45
-🕐 **Last updated:** 2026-03-17 20:08:41 UTC
+📊 **Total games played:** 46
+🕐 **Last updated:** 2026-03-20 11:30:24 UTC
 
 ---
 

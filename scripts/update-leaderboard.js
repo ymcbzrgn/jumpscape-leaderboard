@@ -7,7 +7,7 @@
  * updates README.md leaderboard table between markers,
  * and writes the updated file.
  * 
- * Usage: node scripts/update-leaderboard.js '{"playerName":"yamac","score":1500}'
+ * Usage: PAYLOAD='{"playerName":"yamac","score":1500}' node scripts/update-leaderboard.js
  */
 
 const fs = require('fs');
@@ -22,7 +22,7 @@ const END_MARKER = '<!-- LEADERBOARD_END -->';
 const RANK_EMOJIS = { 1: '🥇', 2: '🥈', 3: '🥉' };
 
 function parsePayload() {
-  const raw = process.argv[2];
+  const raw = process.env.PAYLOAD || process.argv[2];
   if (!raw) {
     console.error('No payload provided');
     process.exit(1);

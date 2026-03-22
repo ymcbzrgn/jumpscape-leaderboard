@@ -37,10 +37,10 @@ function parsePayload() {
       process.exit(1);
     }
 
-    // Sanitize player name (alphanumeric, spaces, underscores, dashes, max 20 chars)
+    // Sanitize player name (prevent table breaks and long names)
     const sanitizedName = playerName
-      .replace(/[^a-zA-Z0-9\s_\-\.]/g, '')
-      .slice(0, 20)
+      .replace(/[|\r\n]/g, '')
+      .slice(0, 50)
       .trim();
 
     if (!sanitizedName) {

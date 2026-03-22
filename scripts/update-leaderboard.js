@@ -32,14 +32,20 @@ function parsePayload() {
     const payload = JSON.parse(raw);
     const { playerName, score, date } = payload;
 
-    if (!playerName || typeof score !== 'number' || score <= 0) {
-      console.error('Invalid payload:', payload);
+    // Validate types to prevent prototype/type injection crashes
+    if (typeof playerName !== 'string' || !playerName.trim()) {
+      console.error('Invalid playerName:', playerName);
       process.exit(1);
     }
 
-    // Sanitize player name (prevent table breaks and HTML injections)
+    if (typeof score !== 'number' || !Number.isFinite(score) || score <= 0) {
+      console.error('Invalid score:', score);
+      process.exit(1);
+    }
+
+    // Sanitize player name (prevent table breaks, HTML/Markdown injections)
     const sanitizedName = playerName
-      .replace(/[|\r\n<>]/g, '')
+      .replace(/[|\r\n<>\[\]\(\)*_`~]/g, '')
       .slice(0, 50)
       .trim();
 
@@ -51,10 +57,16 @@ function parsePayload() {
     // Cap score at reasonable max (prevent absurd fake scores)
     const cappedScore = Math.min(Math.floor(score), 999999);
 
+    // Validate and sanitize date
+    let validDate = new Date().toISOString().split('T')[0];
+    if (typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date.trim())) {
+      validDate = date.trim();
+    }
+
     return {
       playerName: sanitizedName,
       score: cappedScore,
-      date: date || new Date().toISOString().split('T')[0],
+      date: validDate,
     };
   } catch (err) {
     console.error('Failed to parse payload:', err.message);

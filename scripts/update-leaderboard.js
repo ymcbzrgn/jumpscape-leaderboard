@@ -37,9 +37,9 @@ function parsePayload() {
       process.exit(1);
     }
 
-    // Sanitize player name (prevent table breaks and long names)
+    // Sanitize player name (prevent table breaks and HTML injections)
     const sanitizedName = playerName
-      .replace(/[|\r\n]/g, '')
+      .replace(/[|\r\n<>]/g, '')
       .slice(0, 50)
       .trim();
 

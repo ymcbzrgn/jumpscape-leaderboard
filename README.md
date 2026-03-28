@@ -65,13 +65,14 @@
 | 56 | zeyn | 55 | 2026-03-17 |
 | 57 | b qwsbkn	qn nis	x | 43 | 2026-03-20 |
 | 58 | virg | 22 | 2026-03-09 |
-| 59 | sude | 14 | 2026-03-12 |
+| 59 | B | 19 | 2026-03-28 |
+| 60 | sude | 14 | 2026-03-12 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 59
-🕐 **Last updated:** 2026-03-27 15:51:58 UTC
+📊 **Total games played:** 60
+🕐 **Last updated:** 2026-03-28 12:21:30 UTC
 
 ---
 

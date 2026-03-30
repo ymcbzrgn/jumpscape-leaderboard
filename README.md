@@ -78,12 +78,13 @@
 | 69 | virg | 22 | 2026-03-09 |
 | 70 | B | 19 | 2026-03-28 |
 | 71 | sude | 14 | 2026-03-12 |
+| 72 | גלי | 5 | 2026-03-30 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 71
-🕐 **Last updated:** 2026-03-29 21:07:16 UTC
+📊 **Total games played:** 72
+🕐 **Last updated:** 2026-03-30 13:11:33 UTC
 
 ---
 

@@ -79,12 +79,13 @@
 | 70 | B | 19 | 2026-03-28 |
 | 71 | sude | 14 | 2026-03-12 |
 | 72 | גלי | 5 | 2026-03-30 |
+| 73 | גלי | 5 | 2026-03-30 |
 <!-- LEADERBOARD_END -->
 
 ---
 
-📊 **Total games played:** 72
-🕐 **Last updated:** 2026-03-30 13:11:33 UTC
+📊 **Total games played:** 73
+🕐 **Last updated:** 2026-03-30 13:11:39 UTC
 
 ---
 
